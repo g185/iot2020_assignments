@@ -17,7 +17,6 @@ exports.handler = (event, context, callback) => {
     };
     
     dbClient.scan(params, function(err, data) {
-    //ddClient.query(params, function(err, data) {
         if (err) {
             callback(err, null);
         }
@@ -58,7 +57,6 @@ exports.handler = (event, context, callback) => {
                     'Access-Control-Allow-Origin': "*"
                 },
                 "body": JSON.stringify(new_response),
-                //"body": new_response,
                 "isBase64Encoded": false
             };
             callback(null, response);
