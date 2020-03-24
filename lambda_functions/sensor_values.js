@@ -3,7 +3,6 @@ this function
 -scan the database
 -process the latest sensor values of last hour
 -encode in json
-
 */
 
 exports.handler = (event, context, callback) => {
