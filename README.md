@@ -12,9 +12,9 @@ Link to Public Dashboard
 
 ## Hands-on Tutorial
 Link to Public Dashboard
->https://demo.thingsboard.io/dashboard/ea77c970-6c6f-11ea-8e0a-7d0ef2a682d3?publicId=8ff07230-6a27-11ea-ad02-b3576b7d39f1
+>
 
 
 ## Video Demostration
 Link to Public Dashboard
->https://demo.thingsboard.io/dashboard/ea77c970-6c6f-11ea-8e0a-7d0ef2a682d3?publicId=8ff07230-6a27-11ea-ad02-b3576b7d39f1
+>https://youtu.be/a4Fq0YOi9Bg
