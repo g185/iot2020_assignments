@@ -11,10 +11,10 @@ Link to Public Dashboard
 >http://iot2020dashboard.s3-website-us-east-1.amazonaws.com/
 
 ## Hands-on Tutorial
-Link to Public Dashboard
+Link to Linkeding Tutorial
 >https://www.linkedin.com/pulse/using-aws-backend-perform-data-visualization-iot-guide-martinelli/
 
 
 ## Video Demostration
-Link to Public Dashboard
+Link to Video Demostration
 >https://youtu.be/a4Fq0YOi9Bg
