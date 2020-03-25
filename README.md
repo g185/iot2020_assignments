@@ -12,7 +12,7 @@ Link to Public Dashboard
 
 ## Hands-on Tutorial
 Link to Public Dashboard
->
+>https://www.linkedin.com/pulse/using-aws-backend-perform-data-visualization-iot-guide-martinelli/
 
 
 ## Video Demostration
