@@ -41,9 +41,6 @@ exports.handler = (event, context, callback) => {
                         newest_2 = responseBody[i]
                     }
                 }
-                if(newest_1 != null && newest_2 != null){ 
-                    break 
-                }
             }
             //insert in the body the two stations log
             let new_response = []
