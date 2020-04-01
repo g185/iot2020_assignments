@@ -1,7 +1,7 @@
 # Internet of Things 2020 Assignments Repo
 This repository contains the solution i developed for the assignments of IoT 2020 course in Sapienza University.
 
-# Assignment n.1:Environmental Stations Dashboard using AWS framework
+## Assignment n.1:Environmental Stations Dashboard using AWS framework
 ## The Assignment
 This project is the solution for the First Assignment of IoT 2020 course in Sapienza University. It consisted in creating a cloud-based IoT system that collects information from two of virtual environmental sensors using the MQTT protocol displaying the data collected from the sensors on a public web site.
 In this project i was assigned to use AWS framework in order to structurate the backend of my solution.
