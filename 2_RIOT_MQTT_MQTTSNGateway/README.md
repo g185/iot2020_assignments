@@ -1,5 +1,5 @@
 
-## Assignment 2: Environmental Stations Dashboard using AWS framework
+## Assignment 2: RIOT MQTT MQTTSN gateway
 ## The Assignment
 This project is the solution for the Second Assignment of IoT 2020 course in Sapienza University. It consisted in creating a RIOT-OS native emulator that was able to publish sensors into AWS cloud environment.
 For this purpose i decided to implement a local MQTTSN-Gateway to MQTT Broker structure in order to publish the data from the RIOT-OS emulator.
