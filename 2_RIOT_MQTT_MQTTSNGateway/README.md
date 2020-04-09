@@ -13,6 +13,7 @@ Link to Public Dashboard
 >http://iot2020dashboard.s3-website-us-east-1.amazonaws.com/
 
 ## Hands-on Tutorial
+Link to Hands-on Tutorial
 >https://www.linkedin.com/pulse/connect-riot-os-sensors-aws-cloud-services-hands-on-guide-martinelli/
 
 ## Video Demostration
