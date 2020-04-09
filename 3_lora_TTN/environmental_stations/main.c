@@ -1,10 +1,3 @@
-/*
- * Copyright (C) 2018 Inria
- *
- * This file is subject to the terms and conditions of the GNU Lesser
- * General Public License v2.1. See the file LICENSE in the top level
- * directory for more details.
- */
 
 #include <string.h>
 
@@ -44,7 +37,7 @@ static void sender(void)
         xtimer_sleep(20);
         char payload[300];
 
-        /* do some measurements */
+	/*retrieve sensor values*/
         uint16_t humidity = 0;
         int16_t temperature = 0;
         if (hts221_read_humidity(&hts221, &humidity) != HTS221_OK) {
@@ -53,7 +46,7 @@ static void sender(void)
         if (hts221_read_temperature(&hts221, &temperature) != HTS221_OK) {
             puts(" -- failed to read temperature!");
         }
-
+	/*generate random values*/
         char* deviceId = "EnvironmentalStation_2";
         int win_dir = get_random(0,360);
         int win_int = get_random(0,100);
@@ -63,7 +56,6 @@ static void sender(void)
 
 
         sprintf(payload,"{\"deviceId\": \"%s\", \"humidity\": \"%u.%u\", \"temperature\": \"%u.%u\", \"windDirection\": \"%d\", \"windIntensity\": \"%d\", \"rainHeigth\": \"%d\", \"datetime\": \"%d-%02d-%02d %02d:%02d:%02d\"}", deviceId, (humidity / 10), (humidity % 10), (temperature / 10), (temperature % 10), win_dir, win_int, rain, tm.tm_year + 1900, tm.tm_mon + 1, tm.tm_mday, tm.tm_hour, tm.tm_min, tm.tm_sec);
-        //sprintf(payload,"{deviceId": "%s", "humidity": "%u.%u", "temperature": "%u.%u", "windDirection": "%d", "windIntensity": "%d", "rainHeigth": "%d", "datetime": "%d-%02d-%02d %02d:%02d:%02d}"}, deviceId, (humidity / 10), (humidity % 10), (temperature / 10), (temperature % 10), win_dir, win_int, rain, tm.tm_year + 1900, tm.tm_mon + 1, tm.tm_mday, tm.tm_hour, tm.tm_min, tm.tm_sec);
 
         printf("Sending data: %s\n", payload);
 

@@ -1,24 +1,4 @@
-/*
- * Copyright (C) 2014 Freie Universität Berlin
- *               2018 Inria
- *
- * This file is subject to the terms and conditions of the GNU Lesser
- * General Public License v2.1. See the file LICENSE in the top level
- * directory for more details.
- */
 
-/**
- * @ingroup tests
- * @{
- *
- * @file
- * @brief       Test application for the LPS331AP/LPS25HB/LPS22HB pressure sensor
- *
- * @author      Hauke Petersen <hauke.petersen@fu-berlin.de>
- * @author      Alexandre Abadie <alexandre.abadie@inria.fr>
- *
- * @}
- */
 
 #include <stdio.h>
 #include <stdlib.h>
