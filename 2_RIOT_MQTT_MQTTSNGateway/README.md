@@ -1,21 +1,21 @@
 
 ## Assignment 2: Environmental Stations Dashboard using AWS framework
 ## The Assignment
-This project is the solution for the First Assignment of IoT 2020 course in Sapienza University. It consisted in creating a cloud-based IoT system that collects information from two of virtual environmental sensors using the MQTT protocol displaying the data collected from the sensors on a public web site.
-In this project i was assigned to use AWS framework in order to structurate the backend of my solution.
-The solution that i was able to find consist in the use of different AWS components in order to build a serverless webapp that was able to fetch real time data in a database, continuously filled with the published information of the enviromental stations.
-A more accurate view of the project can be obtained following the links below.
+This project is the solution for the Second Assignment of IoT 2020 course in Sapienza University. It consisted in creating a RIOT-OS native emulator that was able to publish sensors into AWS cloud environment.
+For this purpose i decided to implement a local MQTTSN-Gateway to MQTT Broker structure in order to publish the data from the RIOT-OS emulator.
+I also included the code from iot-lab sperimetation in which I was not able to enstablish connection between mqttsn and emcute device for network problems. Nonetheless i developed code in order to retrieve real temperature data and output in a format like the real payload and an emcute-like main in order to publish the real values into the mqttsn.
+
+
+
 
 ## Dashboard Web-App
 Link to Public Dashboard
 >http://iot2020dashboard.s3-website-us-east-1.amazonaws.com/
 
 ## Hands-on Tutorial
-Link to Linkeding Tutorial
->https://www.linkedin.com/pulse/using-aws-backend-perform-data-visualization-iot-guide-martinelli/
-
+>https://www.linkedin.com/pulse/connect-riot-os-sensors-aws-cloud-services-hands-on-guide-martinelli/
 
 ## Video Demostration
 Link to Video Demostration
->https://youtu.be/a4Fq0YOi9Bg
+>https://youtu.be/m8c3pVJCYxw
 
