@@ -11,9 +11,9 @@ Link to Public Dashboard
 
 ## Hands-on Tutorial
 Link to Hands-On Tutorial
->
+>https://www.linkedin.com/pulse/using-lorawan-things-network-connect-real-sensors-aws-martinelli/
 
 ## Video Demostration
 Link to Video Demostration
->
+>https://youtu.be/41lUHV0RVnY
 
