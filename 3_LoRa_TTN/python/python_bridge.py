@@ -23,6 +23,8 @@ def return_params():
 
 	return params
 
+
+
 #connect to aws mqtt and return handler
 def connect_to_AWS_MQTT(params):
 
@@ -40,6 +42,8 @@ def connect_to_AWS_MQTT(params):
 
 	return myAWSIoTMQTTClient
 
+
+
 #connect to ttn mqtt and return handler
 def connect_to_TTN_MQTT(params):
 	handler = ttn.HandlerClient(params["ttnAppId"], params["ttnAccessKey"])
@@ -47,6 +51,8 @@ def connect_to_TTN_MQTT(params):
 	mqtt_client = handler.data()
 	mqtt_client.set_uplink_callback(uplink_callback)
 	return mqtt_client
+
+
 
 #uplink message goes from ttn to aws
 def uplink_callback(msg, client):
@@ -56,6 +62,7 @@ def uplink_callback(msg, client):
   	msg = re.sub('([12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01]) [0-9:]*.[0-9]*)', datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S\""), msg)
   	AWS_MQTT_client.publish(params['topic'] ,msg[1:-1], 1)
   	print('Published topic %s: %s\n' % (params['topic'] , msg))
+
 
 
 params = return_params()
