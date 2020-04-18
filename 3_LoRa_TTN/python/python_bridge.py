@@ -50,6 +50,9 @@ def connect_to_TTN_MQTT(params):
 
 #uplink message goes from ttn to aws
 def uplink_callback(msg, client):
+	"""the message that comes from iotlab devices has to be processed in order to obtain a good
+	payload message, in particular we delete the "\" and substitute the datetime since the one that comes from
+	iotlab devices is 1970-00-00 00:00"""
   	print("Received uplink from ", msg.dev_id)
   	messageJson = json.dumps(msg.payload_fields[0])
   	msg = messageJson.replace("\\", "")
