@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Accelerometer</title>  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Ruadhan O'Donoghue">
+  <meta charset="UTF-8">
+  <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+  <h1>Accelerometer retrieval APP </h1>
+  <p>This app will access to your accelerometer in order to send data to amazon AWS</p> 
+  <p>It is possible using <a href="https://mobiforge.com/design-development/the-generic-sensor-api">The Generic Sensor API</a> </p>
+  <p>Live raw Data:</p>
+  <div id="status">No data</div>
+  
+  <script type="text/javascript" src="js/accelerometer.js"></script>
+
+  <p>You can use this the <a href="http://iot2020edgesensor.s3-website-us-east-1.amazonaws.com">Cloud Dashboard</a> in order to access the processed data</p>
+
+</body>
+</html>
