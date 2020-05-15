@@ -19,3 +19,21 @@ Link to Linkeding Tutorial
 
 Link to Video Demostration
 >https://youtu.be/a4Fq0YOi9Bg
+
+
+## Assignment 3: Build RIOT-OS application that uses MQTT-SN Gateway and MQTT local Broker to publish on AWS
+
+Link to Linkeding Tutorial
+>https://www.linkedin.com/pulse/using-aws-backend-perform-data-visualization-iot-guide-martinelli/
+
+Link to Video Demostration
+>https://youtu.be/a4Fq0YOi9Bg
+
+## Assignment 3: Build RIOT-OS application that uses MQTT-SN Gateway and MQTT local Broker to publish on AWS
+
+Link to Linkeding Tutorial
+>https://www.linkedin.com/pulse/using-lorawan-things-network-connect-real-sensors-aws-martinelli/
+
+Link to Video Demostration
+>https://youtu.be/41lUHV0RVnY
+
