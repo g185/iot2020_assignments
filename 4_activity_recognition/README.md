@@ -1,5 +1,5 @@
 
-## Assignment 3: LoRa devices connected to AWS cloud MQTT using TTN
+## Assignment 3: Crowdsensing activity recognition using Generic Sensor API and AWS
 ## The Assignment
 This project is the solution for the Fourth Assignment of IoT 2020 course in Sapienza University. 
 It consisted in the implementation of an activity recognitions system based on the application onf Crowdsensing.
