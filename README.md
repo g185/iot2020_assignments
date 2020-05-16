@@ -29,12 +29,12 @@ Link to Linkeding Tutorial
 Link to Video Demostration
 >https://youtu.be/41lUHV0RVnY
 
-## Assignment 4: Build RIOT-OS application that uses MQTT-SN Gateway and MQTT local Broker to publish on AWS
+## Assignment 4: Crowdsensing activity recognition using Generic Sensor API and AWS
 
 Link to Linkeding Tutorial
->https://www.linkedin.com/pulse/using-lorawan-things-network-connect-real-sensors-aws-martinelli/
+>
 
 Link to Video Demostration
->https://youtu.be/41lUHV0RVnY
+>
 
 
