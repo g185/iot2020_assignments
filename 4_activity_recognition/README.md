@@ -25,8 +25,8 @@ Link to Cloud Dashboard
 
 ## Hands-on Tutorial
 Link to Hands-On Tutorial
->
+>https://www.linkedin.com/pulse/crowdsensing-activity-recognition-using-generic-api-aws-martinelli/
 
 ## Video Demostration
 Link to Video Demostration
->
+>https://youtu.be/IgRIKygS7Go
